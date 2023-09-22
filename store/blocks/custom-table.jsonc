@@ -1,0 +1,22 @@
+{
+    "store.custom#custom-table":{
+      "blocks":[
+        "rich-text#our",
+        "flex-layout.row#custom-table"
+      ]
+    },
+    "rich-text#our": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "### **About Our Artist**",
+          "blockClass": "topTitle"
+
+        }
+    },
+    "flex-layout.row#custom-table": {
+        "children": [
+          "custom-table"
+        ]
+    }
+} 
