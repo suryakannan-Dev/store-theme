@@ -1,0 +1,27 @@
+{
+    "store.custom#contact-form":{
+      "blocks":[
+        "rich-text#us",
+        "flex-layout.row#contact-form",
+        "flex-layout.row#custom-service"
+    ]
+    },
+    "rich-text#us": {
+        "props": {
+          "text": "### **Want to know more?**",
+          "font": "t-heading-2",
+          "blockClass": "topTitle"
+        }
+    },
+
+    "flex-layout.row#contact-form": {
+        "children": [ 
+         "contact-form"
+        ]
+    },
+    "flex-layout.row#custom-service": {
+       "children": [
+        "custom-service"
+      ]
+    }
+} 
